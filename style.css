@@ -1,0 +1,107 @@
+/* 
+    RESET
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+/* Header Top */
+
+header > .container-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: #265de8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  width: 350px;
+}
+.info {
+  width: 500px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.login {
+  width: 350px;
+}
+header .container-top button {
+  width: 85px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+/* Header Bottom */
+.container-bot {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.description h1 {
+  font-size: 50px;
+  padding-top: 160px;
+  padding-bottom: 30px;
+}
+.description {
+  margin: 0 auto;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.description p {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.buttons button {
+  border-radius: 20px;
+  width: auto;
+  padding: 10px;
+  font-size: 18px;
+}
+.buttons div > button {
+  background-color: white;
+  font-weight: 300;
+  border: white;
+  color: black;
+}
+.buttons > button {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  border: rgba(0, 0, 0, 0.8);
+  color: white;
+}
